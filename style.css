@@ -35,19 +35,22 @@
   font-size: 20px;
 }
 .swiper-button-prev:hover {
-  background-color: rgb(146, 90, 17);
+  background-color:#ffff;
   color: black;
   opacity: 1;
   transition: 0.2;
 }
 .swiper-button-next:hover {
-  background-color: rgb(146, 90, 17);
+  background-color:#ffff;
   color: black;
   opacity: 1;
   transition: 0.2;
 }
  .swiper .swiper-pagination-bullet-active{
     background:black;
+    border-radius: 20px;
+    width:40px;
+
 
  }
  .swiper .swiper-pagination-bullet-active:hover{
@@ -55,5 +58,12 @@
     width: 10px;
     border-radius: 5px;
 
+ }
+ #link{
+  color:red;
+  font-size:larger;
+  font-weight:500px;
+  margin:10px auto;
+  padding-bottom: 100px;
  }
  
